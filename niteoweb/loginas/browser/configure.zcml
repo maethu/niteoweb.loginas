@@ -3,6 +3,8 @@
     xmlns:browser="http://namespaces.zope.org/browser"
     i18n_domain="niteoweb.loginas">
 
+    <include package="Products.CMFPlone" />
+
     <browser:page
         name="login-as"
         for="*"
